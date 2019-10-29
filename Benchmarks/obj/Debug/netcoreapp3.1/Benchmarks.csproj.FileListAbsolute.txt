@@ -1,0 +1,4 @@
+D:\MyPrograms\Benchmarks\Benchmarks\bin\Debug\netcoreapp3.1\Benchmarks.exe
+D:\MyPrograms\Benchmarks\Benchmarks\obj\Debug\netcoreapp3.1\Benchmarks.csprojAssemblyReference.cache
+D:\MyPrograms\Benchmarks\Benchmarks\obj\Debug\netcoreapp3.1\Benchmarks.AssemblyInfoInputs.cache
+D:\MyPrograms\Benchmarks\Benchmarks\obj\Debug\netcoreapp3.1\Benchmarks.AssemblyInfo.cs
