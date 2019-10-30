@@ -13,8 +13,8 @@ namespace Benchmarks
     {
         static void Main(string[] args)
         {
-           var summary = BenchmarkRunner.Run<FloatingPointBenchmarks>();            
-            //var summaryAll = BenchmarkRunner.Run(typeof(Program).Assembly);
+           //var summary = BenchmarkRunner.Run<FloatingPointBenchmarks>();            
+            var summaryAll = BenchmarkRunner.Run(typeof(Program).Assembly);
         }
         public static string GetNetCoreVersion()
         {
