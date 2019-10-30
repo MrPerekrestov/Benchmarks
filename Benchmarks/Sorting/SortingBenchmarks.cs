@@ -8,7 +8,7 @@ namespace Benchmarks.Sorting
 {
     public class SortingBenchmarks
     {
-        private int[] _dataForSort;        
+        private int[] _dataForArraySort;        
         private int[] _dataForLinqSort;
         private List<int> _dataForListSort;
         [Params(1000, 10000)]
@@ -17,12 +17,12 @@ namespace Benchmarks.Sorting
         [GlobalSetup]        
         public void Setup()
         {
-            _dataForSort = new int[N];
+            _dataForArraySort = new int[N];
             var random = new Random();
 
             for (var i = 0; i < N; i++)
             {
-                _dataForSort[i] = random.Next(int.MinValue, int.MaxValue);
+                _dataForArraySort[i] = random.Next(int.MinValue, int.MaxValue);
             }
 
             _dataForLinqSort = new int[N];            
@@ -39,7 +39,7 @@ namespace Benchmarks.Sorting
 
         }
         [Benchmark]
-        public void ArraySort() => Array.Sort(_dataForSort);      
+        public void ArraySort() => Array.Sort(_dataForArraySort);      
 
         [Benchmark]
         public void ListSort() => _dataForListSort.Sort();
