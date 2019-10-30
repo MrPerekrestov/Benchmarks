@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <ImportDirectoryBuildProps>false</ImportDirectoryBuildProps>
+    <ImportDirectoryBuildTargets>false</ImportDirectoryBuildTargets>
+    <AssemblyTitle>a28e8314-efef-49c9-9e02-0d1ee5412599</AssemblyTitle>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>a28e8314-efef-49c9-9e02-0d1ee5412599</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <OutputPath>bin\Release</OutputPath>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <UseSharedCompilation>false</UseSharedCompilation>
+    <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
+    <RuntimeFrameworkVersion>3.0.0</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="a28e8314-efef-49c9-9e02-0d1ee5412599.notcs" Exclude="bin\**;obj\**;**\*.xproj;packages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="D:\MyProgramms\Benchmarks\Benchmarks\Benchmarks.csproj" />
+  </ItemGroup>
+  
+
+</Project>
