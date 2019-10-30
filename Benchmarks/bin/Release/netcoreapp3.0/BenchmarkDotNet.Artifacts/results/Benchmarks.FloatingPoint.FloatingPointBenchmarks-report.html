@@ -2,7 +2,7 @@
 <html lang='en'>
 <head>
 <meta charset='utf-8' />
-<title>Benchmarks.FloatingPoint.FloatingPointBenchmarks-20191030-095706</title>
+<title>Benchmarks.FloatingPoint.FloatingPointBenchmarks-20191030-144901</title>
 
 <style type="text/css">
 	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
@@ -16,17 +16,20 @@
 BenchmarkDotNet=v0.12.0, OS=Windows 10.0.18362
 Intel Core i5-3320M CPU 2.60GHz (Ivy Bridge), 1 CPU, 4 logical and 2 physical cores
 .NET Core SDK=3.1.100-preview1-014459
-  [Host]     : .NET Core 3.1.0 (CoreCLR 4.700.19.50403, CoreFX 4.700.19.50410), X64 RyuJIT  [AttachedDebugger]
-  DefaultJob : .NET Core 3.1.0 (CoreCLR 4.700.19.50403, CoreFX 4.700.19.50410), X64 RyuJIT
+  [Host]     : .NET Core 3.0.0 (CoreCLR 4.700.19.46205, CoreFX 4.700.19.46214), X64 RyuJIT  [AttachedDebugger]
+  DefaultJob : .NET Core 3.0.0 (CoreCLR 4.700.19.46205, CoreFX 4.700.19.46214), X64 RyuJIT
 </code></pre>
 <pre><code></code></pre>
 
 <table>
-<thead><tr><th>Method</th><th>   Mean</th><th> Error</th><th>StdDev</th>
+<thead><tr><th>Method</th><th>N</th><th>    Mean</th><th>  Error</th><th> StdDev</th>
 </tr>
-</thead><tbody><tr><td>Log10</td><td>107.89 us</td><td>1.556 us</td><td>1.455 us</td>
-</tr><tr><td>Division</td><td>304,253.36 us</td><td>4,828.325 us</td><td>4,516.418 us</td>
-</tr><tr><td>Sqrt</td><td>44.17 us</td><td>0.223 us</td><td>0.209 us</td>
+</thead><tbody><tr><td>Log10</td><td>1000</td><td>NA</td><td>NA</td><td>NA</td>
+</tr><tr><td>Division</td><td>1000</td><td>4,579.139 us</td><td>84.1614 us</td><td>78.7246 us</td>
+</tr><tr><td>Sqrt</td><td>1000</td><td>6.381 us</td><td>0.1193 us</td><td>0.1225 us</td>
+</tr><tr><td>Log10</td><td>10000</td><td>NA</td><td>NA</td><td>NA</td>
+</tr><tr><td>Division</td><td>10000</td><td>454,182.847 us</td><td>8,137.9027 us</td><td>7,612.1992 us</td>
+</tr><tr><td>Sqrt</td><td>10000</td><td>63.642 us</td><td>0.2822 us</td><td>0.2356 us</td>
 </tr></tbody></table>
 </body>
 </html>
