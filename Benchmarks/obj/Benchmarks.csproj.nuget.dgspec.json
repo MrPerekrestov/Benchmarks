@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/d/MyPrograms/Benchmarks/Benchmarks/Benchmarks.csproj": {}
+    "/DotNetExamples/Benchmarks/Benchmarks/Benchmarks.csproj": {}
   },
   "projects": {
-    "/mnt/d/MyPrograms/Benchmarks/Benchmarks/Benchmarks.csproj": {
+    "/DotNetExamples/Benchmarks/Benchmarks/Benchmarks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/MyPrograms/Benchmarks/Benchmarks/Benchmarks.csproj",
+        "projectUniqueName": "/DotNetExamples/Benchmarks/Benchmarks/Benchmarks.csproj",
         "projectName": "Benchmarks",
-        "projectPath": "/mnt/d/MyPrograms/Benchmarks/Benchmarks/Benchmarks.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/mnt/d/MyPrograms/Benchmarks/Benchmarks/obj/",
+        "projectPath": "/DotNetExamples/Benchmarks/Benchmarks/Benchmarks.csproj",
+        "packagesPath": "/home/roman/.nuget/packages/",
+        "outputPath": "/DotNetExamples/Benchmarks/Benchmarks/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/roman/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
