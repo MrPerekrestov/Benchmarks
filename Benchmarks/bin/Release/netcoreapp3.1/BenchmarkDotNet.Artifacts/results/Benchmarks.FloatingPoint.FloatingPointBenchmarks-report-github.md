@@ -8,6 +8,8 @@ Intel Core i5-2500K CPU 3.30GHz (Sandy Bridge), 1 CPU, 4 logical and 4 physical 
 
 
 ```
-| Method |     Mean |     Error |    StdDev |
-|------- |---------:|----------:|----------:|
-|    Pow | 2.869 us | 0.0370 us | 0.0347 us |
+|   Method |          Mean |        Error |       StdDev |
+|--------- |--------------:|-------------:|-------------:|
+|    Log10 |     105.58 us |     1.068 us |     0.892 us |
+| Division | 389,014.93 us | 9,699.519 us | 9,960.692 us |
+|     Sqrt |      61.84 us |     0.234 us |     0.207 us |

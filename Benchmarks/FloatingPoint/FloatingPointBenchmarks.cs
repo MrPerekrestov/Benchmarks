@@ -8,33 +8,40 @@ namespace Benchmarks.FloatingPoint
     public class FloatingPointBenchmarks
     {
         private const int N = 10000;
-        //[Benchmark]
-        //public void Log10()
-        //{
-        //    for(var i =1; i<N; i++)
-        //    {
-        //        Math.Log10(i);
-        //    }
-        //}
-        //[Benchmark]
-        //public void Sqrt()
-        //{
-        //    for (var i = 1; i < N; i++)
-        //    {
-        //        Math.Sqrt(i);
-        //    }
-        //}
+
         [Benchmark]
-        public void Pow()
+        public double Log10()
         {
-            double x;
+            double result = 0;
             for (var i = 1; i < N; i++)
             {
-                for (var k = 1; k > N; k++)
+                result = Math.Log10(i);
+            }
+            return result;
+        }
+
+        [Benchmark]
+        public double Division()
+        {
+            double result=0;
+            for (var i = 1; i < N; i++)
+            {
+                for (var k = 1; k < N; k++)
                 {
-                    x = i / k;
+                    result = i / k;                   
                 }
             }
+            return result;
+        }
+        [Benchmark]
+        public double Sqrt()
+        {
+            double result = 0;
+            for (var i = 1; i < N; i++)
+            {
+                result = Math.Sqrt(i);
+            }
+            return result;
         }
     }
 }
